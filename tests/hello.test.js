@@ -1,10 +1,10 @@
-function helloWorld(){
+function helloWorld() {
 
     return 'Hello, World'
 
 }
 
-it ("Should show hello world", ()=>{
+it("Should show hello world", () => {
 
     let result = "";
 
