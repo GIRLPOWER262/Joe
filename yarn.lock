@@ -2383,6 +2383,7 @@
   "version" "0.2.6"
 
 "@react-native-picker/picker@github:react-native-picker/picker":
+  "integrity" "sha512-0nY8638h1J3wKz6P3IJMpOoxJDdOj7Dk/K2hP/xpqP3KnIY0lmoqYlhyNihuyVPocDGajf6SA7LFFsFepQ56ag=="
   "resolved" "git+ssh://git@github.com/react-native-picker/picker.git#99fd8699fda5114a33badcc82a07ec0cd2de4200"
   "version" "2.4.2"
 
@@ -4138,6 +4139,11 @@
   dependencies:
     "browserslist" "^4.20.3"
     "semver" "7.0.0"
+
+"core-js-pure@>=3":
+  "integrity" "sha512-Cf2jqAbXgWH3VVzjyaaFkY1EBazxugUepGymDoeteyYr9ByX51kD2jdHZlsEF/xnJMyN3Prua7mQuzwMg6Zc9A=="
+  "resolved" "https://registry.npmjs.org/core-js-pure/-/core-js-pure-3.27.2.tgz"
+  "version" "3.27.2"
 
 "core-util-is@~1.0.0":
   "integrity" "sha512-ZQBvi1DcpJ4GDqanjucZ2Hj3wEO5pZDS89BWbkcrvdxksJorwUDDZamX9ldFkp9aw2lmBDLgkObEA4DWNJ9FYQ=="
@@ -7931,7 +7937,14 @@
   dependencies:
     "minimatch" "^3.0.2"
 
-"node-fetch@^2.2.0", "node-fetch@^2.6.0", "node-fetch@^2.6.1", "node-fetch@^2.6.7", "node-fetch@2.6.7":
+"node-fetch@^2.2.0", "node-fetch@^2.6.0", "node-fetch@^2.6.1", "node-fetch@^2.6.7", "node-fetch@^2.6.8":
+  "integrity" "sha512-RZ6dBYuj8dRSfxpUSu+NsdF1dpPpluJxwOp+6IoDp/sH2QNDSvurYsAa+F1WxY2RjA1iP93xhcsUoYbF2XBqVg=="
+  "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.8.tgz"
+  "version" "2.6.8"
+  dependencies:
+    "whatwg-url" "^5.0.0"
+
+"node-fetch@2.6.7":
   "integrity" "sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ=="
   "resolved" "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
   "version" "2.6.7"
@@ -8851,6 +8864,7 @@
     "prop-types" "^15.7.2"
 
 "react-native-progress@github:cwnicoletti/react-native-progress":
+  "integrity" "sha512-nRqRlEZA9ens+rsO6n0ce99ybUpqvR11CKol2/aTXoqIJIyuHTZpIPeOqzboiJJENeoZK6dGWUyogYYZzPPPQA=="
   "resolved" "git+ssh://git@github.com/cwnicoletti/react-native-progress.git#991350aaf7a90157c2fbda6ec312d949db0b3adf"
   "version" "5.0.0"
   dependencies:
