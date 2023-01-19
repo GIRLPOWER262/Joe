@@ -2,7 +2,7 @@ import fetch from 'node-fetch';
 
 it ("Should get a login token", async() => {
 
-    const loginResponse = await fetch('https://dev.stedi.me/login', {
+    const loginResponse = await fetch('https://dev.stedi.me', {
 
         method: 'POST',
         headers:{
@@ -12,12 +12,12 @@ it ("Should get a login token", async() => {
         body:JSON.stringify({
 
             "username":"hawkins@byui.edu",
-            "password":"Moonpeanu75"
+            "password":"Moonpeanu75!"
 
         })
 
     })
 
-    expect(loginResponse.status).toBe(500);
+    expect(loginResponse.status).toBe(200);
 
 })
