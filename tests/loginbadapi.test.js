@@ -12,7 +12,7 @@ it ("Should get a bad login", async() => {
         body:JSON.stringify({
 
             "username":"hawkins@byui.edu",
-            "password":"Moonpeanu75"
+            "password":"WrongPassword!"
 
         })
 
