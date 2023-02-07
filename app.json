@@ -8,7 +8,7 @@
       }
     },
     "ios": {
-      "bundleIdentifier": "com.scmurdock.stediapp"
+      "bundleIdentifier": "com.joe.stediapp"
     }
   }
 }
