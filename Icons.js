@@ -1,7 +1,7 @@
 import React from 'react';
 import { StyleSheet, Text, View, Image, Dimensions } from 'react-native';
 import { Card, Button } from 'react-native-elements';
-
+// Comment
 const Icons = () => {
   return (
     <View style={styles.icons}>
